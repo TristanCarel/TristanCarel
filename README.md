@@ -2,36 +2,34 @@
 
 **UC Berkeley · Economics**
 
-I'm an Economics student at UC Berkeley building financial models that connect operating assumptions, cash flow, financing, and investment outcomes. My portfolio focuses on explaining the recommendation as clearly as the calculations behind it.
+I build financial models and research tools that connect operating performance, cash flow, financing, and investment decisions.
 
-## Featured project: ADT Downside Underwriting
+## Portfolio
 
-A five-year hypothetical leveraged acquisition model with base and downside scenarios, debt repayment schedules, sponsor returns, exit valuation sensitivities, and a cash conversion bridge.
+**[Explore the interactive portfolio](https://tristancarel.github.io/TristanCarel/)**
 
-**Finding:** 18.6% base-case equity IRR misses the 20% target. The downside produces -9.8% IRR and minimum debt-service coverage of 1.06x.
+## Projects
 
-![ADT analysis preview](analysis-preview.png)
+### Distributor Earnings Quality Research
 
-- [Explore the interactive portfolio](https://tristancarel.github.io/TristanCarel/)
-- [Explore the project](PROJECT-OVERVIEW.md)
-- [Download the Excel model](ADT-Downside-Underwriting.xlsx)
-- [Read the investment memo](ADT-Investment-Memo.pdf)
+An automated SEC-data research platform comparing W.W. Grainger, MSC Industrial, and Wesco across FY2021–FY2025.
+
+- Built a Python and pandas pipeline that normalizes public SEC Company Facts.
+- Stored 120 financial observations, reporting periods, tags, and filing references in SQLite.
+- Created interactive peer comparisons and automated diligence flags in Streamlit and Plotly.
+- Connected quantitative signals to filing-based research on cash conversion, working capital, and margins.
+- Validated every database observation against the cached SEC source files.
+
+**[Open the live dashboard](https://tristan-distributor-research.streamlit.app/)** · **[View the code and methodology](https://github.com/TristanCarel/distributor-research)**
+
+### ADT Downside Underwriting
+
+A five-year hypothetical leveraged acquisition model with base and downside operating cases, debt schedules, sponsor returns, exit sensitivities, and a cash conversion bridge.
+
+**Finding:** The modeled 18.6% base-case equity IRR falls below a 20% target. The downside produces a -9.8% IRR and minimum debt-service coverage of 1.06x.
+
+**[Download the Excel model](ADT-Downside-Underwriting.xlsx)** · **[Read the investment memo](ADT-Investment-Memo.pdf)** · **[View the project overview](PROJECT-OVERVIEW.md)**
 
 ## Skills demonstrated
 
-Excel financial modeling · operating forecasts · sources and uses · debt schedules · cash flow analysis · MOIC and IRR · scenario and sensitivity analysis · investment memo writing
-
-<details>
-<summary>How I approach a modeling project</summary>
-
-Start with historical inputs and explicit assumptions. Link operations to cash, financing, and returns. Reconcile outputs, stress the case, and present a recommendation with its limitations.
-
-</details>
-
-<details>
-<summary>About the ADT analysis</summary>
-
-This is an educational hypothetical transaction. Model-defined EBITDA differs from company-reported Adjusted EBITDA. Financing, taxes, and working capital are simplified. AI assistance supported troubleshooting, presentation, and packaging.
-
-</details>
-
+Financial modeling · investment analysis · Excel · Python · pandas · SQL / SQLite · SEC research · Streamlit · Plotly · scenario analysis · memo writing
